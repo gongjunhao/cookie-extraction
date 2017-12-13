@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cookie提取助手</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      .container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+	<script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Cookie提取助手</h1>
+    <div class="container" style="color:red">
+      <span>Please input server address</span>
+    </div>
+	<div class="container">
+      <input type="text" id="ufindServerAPI" value="http://localhost:8080/assistant"></input>
+    </div>
+	<div class="container">
+      <input type="button" value="保存" id="saveBtn">
+    </div>
+  </body>
+</html>
