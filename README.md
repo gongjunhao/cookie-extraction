@@ -32,6 +32,11 @@ Cookies提取助手的出现，可以实现手工输入验证码，免去程序�
 ### 服务器接口说明
 目前仅支付HTTP接口：
 ```javascript
+var json = {
+        "domain": curDomain,
+        "cookies": cookies
+    };
+
 $.ajax({
         type: "POST",
         url: ufindServerAPI,
