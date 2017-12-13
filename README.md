@@ -27,6 +27,8 @@ Cookies提取助手的出现，可以实现手工输入验证码，免去程序�
 * 选择“提取Cookies更新服务器”
 * 选择“提取Cookies至剪切板”
 
+![usage](https://github.com/gongjunhao/cookie-extraction/blob/master/doc/usage.gif)
+
 ### 服务器接口说明
 目前仅支付HTTP接口：
 ```javascript
